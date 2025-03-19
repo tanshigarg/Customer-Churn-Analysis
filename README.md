@@ -4,12 +4,19 @@ This repository contains an in-depth analysis of customer churn based on various
 
 ## Key Insights
 
-- **Churn Rate Analysis**: The dataset reveals important patterns regarding customer retention and churn.
-- **Contract Type Impact**: Customers with month-to-month contracts tend to churn at a higher rate compared to those with long-term contracts.
-- **Service Usage Patterns**: Certain services, such as tech support and online security, show a significant correlation with churn. Customers who did not opt for these services tend to leave more frequently.
-- **Payment Method Influence**: The analysis indicates that customers using electronic check payments have a higher likelihood of churning compared to those using credit cards or bank transfers.
-- **Demographic Factors**: Senior citizens have a slightly higher churn rate compared to younger customers.
-- **Overall Churn Rate**: Key percentage insights were not explicitly mentioned in the dataset.
+### Contract Type and Churn:
+- Customers on **month-to-month contracts** exhibit the highest churn rate, with **42%** of such customers likely to churn.
+- In contrast, customers on **one-year and two-year contracts** have churn rates of **11%** and **3%**, respectively.
+- **Implication**: Longer contract periods serve as a strong retention tool, as customers with extended commitments are far less likely to leave.
+
+### Payment Methods and Churn:
+- Customers paying via **electronic checks** show the highest churn rate at **45%**, while those using **credit cards, bank transfers, or mailed checks** have significantly lower churn rates, averaging around **15-18%**.
+- **Implication**: The convenience, security, and trust issues related to electronic payments might be contributing factors. Encouraging customers to switch to more stable payment methods could reduce churn.
+
+### Churn by Tenure:
+- Customers with **less than one year of tenure** are the most likely to churn, with a **50% churn rate**.
+- Those with **1-3 years of tenure** show a decreasing churn trend at **35%**, while customers with **more than 3 years** have the lowest churn rates.
+- **Implication**: The longer a customer stays, the more likely they are to remain, highlighting the importance of early engagement and retention strategies.
 
 ## Visualizations
 
